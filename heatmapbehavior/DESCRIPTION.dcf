@@ -1,0 +1,18 @@
+Package: heatmapbehavior
+Title: Analise Espacial e Comportamental de Mapas de Calor
+Version: 0.1.0
+Authors@R:
+    persons("Natallia", "Maia", "Isabel","Velasco","Thalita", "Bezerra", "natalliavivian8@gmail.com", "isabel.velasco@ufpe.br",role = c("aut", "cre"))
+Description: Ferramentas para processar mapas de calor de comportamento animal,
+    permitindo a calibracao automatica de arenas e o calculo de metricas como
+    o Indice de Tigmotaxia, Gini comportamental e centroide de permanencia.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports:
+    dplyr,
+    ggplot2,
+    imager,
+    writexl,
+    tidyr
